@@ -1,0 +1,107 @@
+* {
+    color: white;
+}
+
+body {
+    background: linear-gradient(90deg, #B8F9FF 0%, #9ef0ff 100%);
+}
+
+a,
+li {
+    text-decoration: none;
+    list-style-type: none
+}
+
+
+.card,
+input {
+    background: rgb(158, 112, 156);
+    border: rgb(255, 255, 255) solid 2px;
+    border-radius: 50px;
+}
+
+input{
+    width: 290px;
+    height: 40px;
+    color: white;
+    padding: 5px 10px;
+}
+
+input::placeholder{
+    color: aliceblue;
+}
+
+img {
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+#imagem1,
+#imagem2,
+#imagem3,
+#imagem4 {
+    height: 500px;
+}
+
+div.conteiner>div {
+    width: 100%;
+}
+
+footer>div>div {
+    width: 100%;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon,
+.carousel-indicators {
+    background-color: rgb(110, 110, 110, 0.5);
+    border-radius: 10px;
+}
+
+#retomar {
+    border: 5px solid blueviolet;
+    background-color: blueviolet;
+    text-decoration: none;
+    color: aliceblue;
+    width: 200px;
+    border-radius: 10px;
+}
+
+#retomar:hover {
+    border: 5px solid violet;
+    background-color: violet;
+    text-decoration: none;
+    color: blue;
+    width: 200px;
+    border-radius: 10px;
+}
+
+header {
+    background-color: rgb(254, 255, 166);
+}
+
+footer {
+    background-color: rgb(223, 139, 223);
+}
+
+a#links {
+    color: aliceblue;
+}
+
+a#links:hover {
+    color: aqua;
+}
+
+@media(max-width: 700px) {
+
+    #imagem1,
+    #imagem2,
+    #imagem3,
+    #imagem4 {
+        height: 300px;
+    }
+
+    .card {
+        width: 350px;
+    }
+}

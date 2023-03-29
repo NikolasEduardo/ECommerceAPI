@@ -124,7 +124,7 @@ const preencherFormulario = (endereco) => {
                 converterRealPraDolar();
                 return;
             default:
-                console.log("Insira um CEP válido que seja no Brasil")
+                alert("Insira um CEP válido e que seja no Brasil")
                 document.getElementById("fname").classList = "btn btn-light disabled";
                 //colocar preço de volta
                 document.getElementById("frete-dolar").innerHTML = 10.00;
